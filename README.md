@@ -139,7 +139,10 @@ file:///home/suyash/Pictures/Screenshot%20from%202022-11-05%2013-51-44.png![imag
 ## Temperature Sensor Generator
 An all-digital temperature sensor, that relies on a new subthreshold oscillator (achieved using the auxiliary cell “Header Cell“) for realizing synthesizable thermal sensors.
 
-The way that works is we have a subthreshold current that has an exponential dependency on the temperature, the frequency generated from the subthreshold ring oscillator is also dependent on temperature. So we can sense the temperature by comparing the difference between the clock frequency generated from a reference oscillator and the clock frequency from the proposed frequency generator.
+## Explanation
+The subthreshold current of a transistor has an exponential dependence on the temperature, as shown below:
+![image](https://user-images.githubusercontent.com/84946358/200111207-91b8a292-a51d-4acd-807a-b3c8dbe3cc23.png)
+Now, consider the ring oscillator. Its frequency is inversely proportional to the delay of a single stage (besides the number of stages). This delay depends on the maximum current that can flow through the transistor to either charge or discharge the load and parasitic capacitances of the next and current stages, respectively. The subthreshold leakage current becomes significant for short channel transistors. Thus, we conclude that the frequency of the ring oscillator is a function of the temperature, and so, we can "sense" the temperature by comparing the difference between the clock frequency generated from a reference oscillator and the clock frequency from the proposed frequency generator.
 
 
 ### Understanding the TEMP_ANALOG.V files:
