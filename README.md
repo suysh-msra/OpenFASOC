@@ -158,9 +158,7 @@ The placeholders in the verilog template files are replaced with the aux_cell in
 
 
 
-![image](https://user-images.githubusercontent.com/84946358/200111547-190f001b-8ef7-44be-bbad-27f5bc8bcf15.png)
-
-![tmpsese](https://user-images.githubusercontent.com/84946358/200111755-b021c563-ae4d-48e6-baf1-60dc0c3b9192.png)
+![tmpsese](https://user-images.githubusercontent.com/84946358/200111871-44cdc3cd-c7da-47bf-a709-7054363927f2.png)
 
 
 The temp_gen_netlist function can be found in ``` openfasoc/generators/temp-sense-gen/tools/TEMP_netlist.py ```
