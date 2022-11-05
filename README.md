@@ -160,7 +160,11 @@ The placeholders in the verilog template files are replaced with the aux_cell in
 
 ![Screenshot from 2022-11-05 14-14-43](https://user-images.githubusercontent.com/84946358/200112246-11cee754-8cb0-4a76-8e21-695352917aa6.png)
 
-![tmpsese](https://user-images.githubusercontent.com/84946358/200111871-44cdc3cd-c7da-47bf-a709-7054363927f2.png)
+## Inputs and Outputs
+The input is EN(enable), and the outputs are OUT, OUTB. The lines preceeded by "@@" are replaced by standard cells. For example, "@@ @na a_nand_0 " gets replaced with "sky130_fd_sc_hd__nand2_1 a_nand_0 ( .A(EN), .B(n7), .Y(n1))"
+
+![image](https://user-images.githubusercontent.com/84946358/200113996-93523edf-a355-4bbb-9ae0-4d5927c6d1e0.png)
+
 
 
 The temp_gen_netlist function can be found in ``` openfasoc/generators/temp-sense-gen/tools/TEMP_netlist.py ```
