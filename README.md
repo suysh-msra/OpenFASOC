@@ -149,8 +149,8 @@ Now, consider the ring oscillator. Its frequency is inversely proportional to th
 ### Understanding the TEMP_ANALOG.V files:
 
 #### Block Architecture
-![image](https://user-images.githubusercontent.com/84946358/200114916-cd5fc200-51b2-4a50-addd-2d67317fd183.png)
 
+![image](https://user-images.githubusercontent.com/84946358/200115032-2fb0c21a-c6e8-41d5-b3ab-cf77ee73ac74.png)
 
 
 
