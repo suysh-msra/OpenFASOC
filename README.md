@@ -161,7 +161,8 @@ The placeholders in the verilog template files are replaced with the aux_cell in
 ![Screenshot from 2022-11-05 14-14-43](https://user-images.githubusercontent.com/84946358/200112246-11cee754-8cb0-4a76-8e21-695352917aa6.png)
 
 ## Inputs and Outputs
-The input is EN(enable), and the outputs are OUT, OUTB. The lines preceeded by "@@" are replaced by standard cells. For example, "@@ @na a_nand_0 " gets replaced with "sky130_fd_sc_hd__nand2_1 a_nand_0 ( .A(EN), .B(n7), .Y(n1))"
+The input is EN(enable), and the outputs are OUT, OUTB.
+The lines preceeded by "@@" are replaced by standard cells. For example, "@@ @na a_nand_0 " gets replaced with "sky130_fd_sc_hd__nand2_1 a_nand_0 ( .A(EN), .B(n7), .Y(n1))" . This and other, similar changes can be observed in the file " TEMP_ANALOG_lv.nl.v" , as follows.
 
 ![image](https://user-images.githubusercontent.com/84946358/200113996-93523edf-a355-4bbb-9ae0-4d5927c6d1e0.png)
 
