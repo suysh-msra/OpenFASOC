@@ -131,6 +131,8 @@ make test
 ```
 
 
+After installing the required tools, the directory should look similar to the following screenshot:
+file:///home/suyash/Pictures/Screenshot%20from%202022-11-05%2013-51-44.png![image](https://user-images.githubusercontent.com/84946358/200110750-9888c2d7-30c9-464b-b320-2b68acf725bf.png)
 
 
 
