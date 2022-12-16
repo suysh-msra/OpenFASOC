@@ -1,5 +1,5 @@
 # AUX CELL GENERATION FOR - OpenFASoC(Fully Open-Source Autonomous SoC)
-Description : In Open FASoC flow, to generate a automated Analog design, few auxilaury cells(.lef,.gds) are required to be created which cannot be implemented with existing library cells (like Header and SLC in temp_sence_gen). To generate these .lef and .gds files of AUX cells we use ALIGN.
+In Open FASoC flow, to generate a automated Analog design, few auxilaury cells(.lef,.gds) are required to be created which cannot be implemented with existing library cells (like Header and SLC in temp_sence_gen). To generate these .lef and .gds files of AUX cells we use ALIGN.
 
 ## Required inputs from previous step of flow:
 Based upon given SCHEMATIC and SPECIFICATIONS of AUX cell, a SPICE Netlist should be created with .sp file extension.
