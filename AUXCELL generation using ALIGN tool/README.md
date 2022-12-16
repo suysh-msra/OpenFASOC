@@ -74,3 +74,4 @@ schematic2layout.py ../ALIGN-pdk-sky130/examples/five_transistor_ota -p ../pdks/
 ### FLOW
 Following are some screenshots demonstrating the above steps:
 
+![Screenshot from 2022-12-16 09-56-24](https://user-images.githubusercontent.com/84946358/208022592-9b305e37-f682-4a52-9530-ec95565ad07d.png)
